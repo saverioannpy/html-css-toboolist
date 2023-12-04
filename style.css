@@ -1,0 +1,132 @@
+/** Reset **/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+/** Header **/ 
+
+header {
+    padding: 10px 20px;
+  }
+  
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+#logo {
+    vertical-align: middle;
+  }
+
+/* Main */
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 5px 0 0 0;
+  }
+
+.button-container {
+    padding: 16px 50px 8px 50px;
+    border-bottom: 2px solid #f6f8f9;
+  }
+  
+.button-container .btn {
+    all: unset;
+    border: 1px solid #c4cbd0;
+    border-radius: 6px;
+    font-size: 11px;
+    background-color: #fff;
+    padding: 6px 10px;
+    color: #d4d9dd;
+    cursor: pointer;
+  }
+  
+#add-task {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+    color: #fff;
+  }
+
+
+section.task {
+    margin-bottom: 40px;
+  }
+  
+.task-container {
+    padding: 40px 50px 40px 50px;
+  }
+  
+.task-container h2 {
+    color: #434851;
+    margin-bottom: 20px;
+  }
+  
+.task-container h2::before {
+    content: '\25BE';
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.task-container ul {
+    list-style: none;
+  }
+  
+.task-container ul li {
+    margin: 10px 0;
+  }
+  
+.task-container ul li::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ff1010;
+    border: 1px solid #ff1010;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+.task-container ul li.completed::before {
+    color: #3acab0;
+    border-color: #3acab0;
+  }
+  
+.task-container ul li .tag {
+    display: inline-block;
+    background-color: violet;
+    border-color: 1px solid violet;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-left: 5px;
+  }
+  
+.task-container ul li .tag.editorial {
+    background-color: #09a9ed;
+    border-color: #09a9ed;
+  }
+  
+.task-container ul li .tag.recruting {
+    background-color: lightsalmon;
+    border-color: lightsalmon;
+  }
+  
+.task-container ul li > span {
+    vertical-align: middle;
+  }
+  
+
+  
